@@ -59,3 +59,7 @@ Mesclar o histórico de commits de um branch em outra branch
 Fazer o push dessas alterações
 ### git push origin <branch_name>
 ### git push origin 1.0
+
+Retirar o arquivo do staging area
+### git restore --staged <file_path>
+### git restore --staged index.html
