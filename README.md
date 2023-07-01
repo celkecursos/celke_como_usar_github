@@ -14,3 +14,36 @@ Verificar a branch
 
 Baixar as atualizações
 ### git pull
+
+Adicionar o arquivo criado, adicionar arquivo ao índice de preparação (staging area). 
+O índice de preparação é uma área intermediária entre o diretório de trabalho (working directory) e o repositório Git
+### git add <file>
+### git add README.md
+
+Adicionar todos os arquivos modificados
+### git add .
+
+Verificar o status do arquivo no repositório
+### git status
+
+Representa um conjunto de alterações em um ponto específico da história do seu projeto, registra apenas as alterações adicionadas ao índice de preparação.
+O comando -m permite que insira a mensagem de commit diretamente na linha de comando
+### git commit -m "Criar o arquivo readme"
+
+Enviar os commits locais, para um repositório remoto.
+### git push <remote> <branch>
+### git push origin 1.0
+
+Criar nova branch no PC
+### git checkout -b <branch>
+### git checkout -b desenvolvimento
+
+Adicionar todos os arquivos modificados no staging area - área de preparação
+### git add .
+
+Verificar em qual branch está
+### git branch
+
+Enviar os commits locais, para um repositório remoto.
+### git push <remote> <branch>
+### git push origin desenvolvimento
