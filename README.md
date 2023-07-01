@@ -47,3 +47,15 @@ Verificar em qual branch está
 Enviar os commits locais, para um repositório remoto.
 ### git push <remote> <branch>
 ### git push origin desenvolvimento
+
+Mudar de branch
+### git switch <branch>
+### git switch 1.0
+
+Mesclar o histórico de commits de um branch em outra branch
+### git merge <branch_name>
+### git merge desenvolvimento
+
+Fazer o push dessas alterações
+### git push origin <branch_name>
+### git push origin 1.0
